@@ -42,6 +42,7 @@ sudo apt-get install -y gparted
 sudo apt-get install -y fail2ban
 sudo apt-get install -y ssh
 sudo apt-get remove -y openssh-server
+sudo apt-get install -y preload ureadahead
 
 sudo apt-get install -y -f
 
