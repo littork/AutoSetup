@@ -95,6 +95,7 @@ then
 fi
 
 sudo apt-get install -y gparted
+sudo apt-get install -y vlc
 sudo apt-get install -y fail2ban
 sudo apt-get install -y ssh
 sudo apt-get install -y preload ureadahead
