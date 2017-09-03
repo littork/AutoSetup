@@ -1,4 +1,3 @@
-sudo add-apt-repository ppa:videolan/stable-daily -y
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
 sudo add-apt-repository ppa:bartbes/love-stable -y
 sudo add-apt-repository ppa:terrz/razerutils -y
