@@ -93,6 +93,13 @@ then
 	sudo apt-get install -y lua5.2
 fi
 
+read -p "Install MediaInfo Commandline? " -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	sudo apt-get install -y mediainfo
+fi
+
 sudo apt-get install -y gparted
 sudo apt-get install -y vlc
 sudo apt-get install -y fail2ban
