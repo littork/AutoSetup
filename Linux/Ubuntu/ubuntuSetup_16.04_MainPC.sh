@@ -186,6 +186,14 @@ then
 		echo "Installed SSH"
 	fi
 
+	read -p "Install GPicView? (For photo viewing) " -n 1 -r
+	echo    # (optional) move to a new line
+	if [[ $REPLY =~ ^[Yy]$ ]]
+	then
+		sudo apt-get install -y gpicview &>/dev/null
+		echo "Installed GPicView"
+	fi
+
 	echo "Installing Preload the UReadAhead (Performance Boosts)"
 	sudo apt-get install -y preload ureadahead &>/dev/null
 
