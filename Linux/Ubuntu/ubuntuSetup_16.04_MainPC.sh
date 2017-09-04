@@ -2,6 +2,7 @@ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Welcome to Littork's Ubuntu Setup Script"
 echo "Checkup will update, upgrade, and autoremove"
 echo "Original Install will set the computer up for use"
+echo "Use the Y or N key to answer questions"
 echo
 read -p "(1) Checkup or (2) Original Install " -n 1 -r
 echo    # (optional) move to a new line
