@@ -19,6 +19,7 @@ then
 	sudo add-apt-repository ppa:bartbes/love-stable -y &>/dev/null
 	sudo add-apt-repository ppa:terrz/razerutils -y &>/dev/null
 	sudo add-apt-repository ppa:lah7/polychromatic -y &>/dev/null
+	sudo add-apt-repository ppa:shutter/ppa -y &>/dev/null
 
 	curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - &>/dev/null
 
@@ -194,6 +195,23 @@ then
 		echo "Installed GPicView"
 	fi
 
+	read -p "Install Youtube-DL? (For video downloading) " -n 1 -r
+	echo    # (optional) move to a new line
+	if [[ $REPLY =~ ^[Yy]$ ]]
+	then
+		sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl &>/dev/null
+		sudo chmod a+rx /usr/local/bin/youtube-dl &>/dev/null
+		echo "Installed Youtube-DL"
+	fi
+
+	read -p "Install Shutter? (For screenshots) " -n 1 -r
+	echo    # (optional) move to a new line
+	if [[ $REPLY =~ ^[Yy]$ ]]
+	then
+		sudo apt-get install shutter &>/dev/null
+		echo "Installed Shutter"
+	fi
+
 	echo "Installing Preload the UReadAhead (Performance Boosts)"
 	sudo apt-get install -y preload ureadahead &>/dev/null
 
@@ -213,6 +231,7 @@ then
 	sudo apt-get autoremove -y &>/dev/null
 
 	echo "It would be in your best interests to reboot now"
+	echo "Go through the tweak tool, and set your desktop background"
 else
 	echo "Beginning checkup"
 
