@@ -376,6 +376,10 @@ then
 
 	echo "It would be in your best interests to reboot now"
 	echo "Go through the tweak tool, and set your desktop background"
+	echo ""
+	echo "If you have an NVIDIA card, run \"sudo ubuntu-drivers devices\" then run \"sudo apt-get install <Name of NVIDIA-___ Driver>\""
+	echo ""
+	echo "By default, Ubuntu uses a generic driver called Nouveau that is not optimal"
 else
 	echo "Beginning checkup"
 
