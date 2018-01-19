@@ -325,11 +325,23 @@ then
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then
 		sudo xterm -geometry 75x25+100+100 -T "Installing Shutter" -e "
-		sudo apt-get install shutter;
+		sudo apt-get install -y shutter;
 		sleep 1;
 		" &
 		sleep 0.25
 		echo "Installed Shutter"
+	fi
+
+	read -p "Install Redshift? (f.lux for linux) " -n 1 -r
+	echo    # (optional) move to a new line
+	if [[ $REPLY =~ ^[Yy]$ ]]
+	then
+		sudo xterm -geometry 75x25+100+100 -T "Installing Redshift" -e "
+		sudo apt-get install -y redshift;
+		sleep 1;
+		" &
+		sleep 0.25
+		echo "Installed Redshift"
 	fi
 
 	echo "Installing Preload and UReadAhead (Performance Boosts)"
