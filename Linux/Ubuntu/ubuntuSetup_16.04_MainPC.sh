@@ -75,7 +75,7 @@ then
 		sudo dpkg -i google-chrome*.deb;
 		sudo rm google-chrome*.deb;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Google Chrome"
 	fi
@@ -90,7 +90,7 @@ then
 		sudo dpkg -i tixati*.deb;
 		sudo rm tixati*.deb;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Tixati"
 	fi
@@ -107,7 +107,7 @@ then
 		sleep 1;
 		sudo rm discord.deb;
 		sleep 5;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Discord"
 	fi
@@ -122,7 +122,7 @@ then
 		sudo dpkg -i atom.deb;
 		sudo rm atom.deb;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Atom"
 	fi
@@ -135,7 +135,7 @@ then
 		sudo apt-get install -y openrazer-meta openrazer-daemon python3-openrazer
 		sudo apt-get install -y polychromatic;
 		sleep 5;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Polychromatic and Razer Support"
 	fi
@@ -147,7 +147,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing MacChanger" -e "
 		sudo apt-get install -y macchanger;
 		sleep 5;
-		" &
+		"
 		sleep 0.25
 		echo "Installed MacChanger"
 	fi
@@ -159,7 +159,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing Steam" -e "
 		sudo apt-get install -y steam;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Steam"
 	fi
@@ -171,7 +171,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing Virtualbox" -e "
 		sudo apt-get install -y virtualbox virtualbox-ext-pack;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Virtualbox + Extension Pack"
 	fi
@@ -183,7 +183,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing Love2D" -e "
 		sudo apt-get install -y love;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Love2D"
 	fi
@@ -195,7 +195,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing LUA" -e "
 		sudo apt-get install -y lua5.2;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Lua 5.2"
 	fi
@@ -207,7 +207,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing MediaInfo" -e "
 		sudo apt-get install -y mediainfo;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed MediaInfo"
 	fi
@@ -219,7 +219,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing NodeJS" -e "
 		sudo apt-get install -y nodejs;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed NodeJS and NPM"
 	fi
@@ -231,7 +231,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing Git" -e "
 		sudo apt-get install -y git;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Git"
 	fi
@@ -243,7 +243,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing HTOP" -e "
 		sudo apt-get install -y htop;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed HTOP"
 	fi
@@ -255,7 +255,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing GParted" -e "
 		sudo apt-get install -y gparted;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed GParted"
 	fi
@@ -267,7 +267,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing VLC" -e "
 		sudo apt-get install -y vlc;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed VLC"
 	fi
@@ -279,7 +279,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing Fail2Ban" -e "
 		sudo apt-get install -y fail2ban;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Fail2Ban"
 	fi
@@ -291,7 +291,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing SSH" -e "
 		sudo apt-get install -y ssh;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed SSH"
 	fi
@@ -303,7 +303,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing GPicView" -e "
 		sudo apt-get install -y gpicview;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed GPicView"
 	fi
@@ -316,7 +316,7 @@ then
 		sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl;
 		sudo chmod a+rx /usr/local/bin/youtube-dl;
 		sleep 5;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Youtube-DL"
 	fi
@@ -328,7 +328,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing Shutter" -e "
 		sudo apt-get install -y shutter;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Shutter"
 	fi
@@ -340,7 +340,7 @@ then
 		sudo xterm -geometry 75x25+100+100 -T "Installing Redshift" -e "
 		sudo apt-get install -y redshift;
 		sleep 1;
-		" &
+		"
 		sleep 0.25
 		echo "Installed Redshift"
 	fi
