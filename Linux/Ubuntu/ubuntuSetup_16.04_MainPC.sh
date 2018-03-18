@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Welcome to Littork's Ubuntu Setup Script"
 echo "Checkup will update, upgrade, and autoremove"
