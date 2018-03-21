@@ -29,7 +29,7 @@ then
 	sudo add-apt-repository ppa:polychromatic/stable -y;
 	sudo add-apt-repository ppa:shutter/ppa -y;
 
-	curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -;
+	curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -;
 
 	sudo rm /etc/apt/sources.list.d/google-chrome*;
 
