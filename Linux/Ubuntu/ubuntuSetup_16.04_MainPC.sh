@@ -121,6 +121,7 @@ then
 		wget -O atom.deb https://atom.io/download/deb;
 		sudo dpkg -i atom.deb;
 		sudo rm atom.deb;
+		sudo apt-get -f -y install;
 		sleep 1;
 		"
 		sleep 0.25
